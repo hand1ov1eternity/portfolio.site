@@ -246,3 +246,45 @@ h1 {
 .cloud-back {
     animation: 34s cloud-move-reverse infinite alternate linear;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: var(--margin-left); /* Maintain consistent spacing */
+  }
+  
+  li {
+    margin-bottom: var(--margin-base);
+  }
+  
+  .standard {
+    display: inline-block;
+    width: 120px; /* Ensure labels have a fixed width */
+    font-family: var(--font-family-sans);
+  }
+  
+  input, textarea {
+    width: calc(100% - 130px); /* Adjust input width based on label size */
+    padding: 10px;
+    margin-left: var(--padding-left);
+    font-family: var(--font-family-sans);
+    border: 1px solid var(--dark-grey);
+    border-radius: var(--border-radius-base);
+  }
+  
+  textarea {
+    height: 80px; /* Control height of textarea */
+  }
+  
+  input[type="submit"] {
+    background-color: var(--button-background);
+    color: var(--button-text);
+    padding: var(--button-padding);
+    border-radius: var(--border-radius-base);
+    border: none;
+    cursor: pointer;
+    transition: opacity 0.2s;
+  }
+  
+  input[type="submit"]:hover {
+    opacity: var(--button-opacity-hover); }
