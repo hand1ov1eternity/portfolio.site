@@ -23,7 +23,10 @@
 
   /* Common spacing variables */
   --padding-base: 20px;
+  --padding-left: 10px;
   --margin-base: 20px;
+  --margin-left: 20px;
+  --margin-right:20px;
   --border-radius-base: 3px;
   --grid-gap: 20px;
   --grid-gap-mobile: 10px;
@@ -159,6 +162,7 @@ h1 {
         min-height: auto;
         margin: 0;
         margin-left: 20px;
+        margin-right:20px;
     }
     .grid__item:last-child {
         grid-column: 3 / 3;

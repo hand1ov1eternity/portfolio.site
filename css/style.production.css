@@ -9,6 +9,7 @@ body {
 * {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+            padding-left: 10px;
 }
 
 .page-header {
@@ -160,6 +161,8 @@ h1 {
         width: auto;
         min-height: auto;
         margin: 0;
+        margin-left: 20px;
+        margin-right:20px;
     }
     .grid__item:last-child {
         -ms-grid-column: 3;
