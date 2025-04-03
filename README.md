@@ -1,26 +1,28 @@
-**Nick Dogkas - Work portfolio**
+Nick Dogkas - Work Portfolio
+This is my personal portfolio website where I showcase my projects, work experience, and contact information. The website was created using HTML, SCSS/CSS and includes responsive design and simple animations.
 
-This is my personal portfolio website where I showcase my projects, work experience and contact information. The website was created using HTML, SCSS/CSS and includes responsive design and simple animations.
+Technologies
+HTML5
 
-**Technologies**
+CSS3/SCSS
 
-    HTML5
-    CSS3/SCSS
-    JavaScript (for accessibility tools)
-    Normalize.css
-    Google fonts
-    Responsive design with flexbox/grid
+JavaScript (for accessibility tools)
 
-**Features**
+Normalize.css
 
-    Customizable navigation bar
-    A clean, simple navigation bar that links to the Home, About and Contact pages, with a centered logo.
+Google Fonts
 
-    Grid-based project layout
-    A responsive grid that adjusts from 3 columns on desktop to a single column on smaller screens, with hover effects.
+Responsive design with Flexbox/Grid
 
-    Footer with links to social media
-    Links to GitHub, Twitter, LinkedIn and Codepen, including clickable icons.
+Features
+Customizable Navigation Bar
+A clean, simple navigation bar that links to the Home, About, and Contact pages, with a centered logo.
 
-    Accessibility tools
-    Integrated tota11y for testing and improving the accessibility of websites.
+Grid-Based Project Layout
+A responsive grid that adjusts from three columns on desktop to a single column on smaller screens, with hover effects.
+
+Footer with Links to Social Media
+Links to GitHub, Twitter, LinkedIn, and CodePen, including clickable icons.
+
+Accessibility Tools
+Integrated tota11y for testing and improving the accessibility of websites.
