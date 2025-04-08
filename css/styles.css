@@ -80,6 +80,18 @@ body {
     width: var(--logo-width);
 }
 
+.project-image {
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+  }
+
+  .project-video {
+    width: 100%;  /* Makes the video responsive */
+    max-width: 500px;  /* Optional: Sets a maximum width */
+    height: auto;  /* Maintains the aspect ratio */
+  }
+
 a {
     color: var(--primary-color);
 }
