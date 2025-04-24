@@ -203,3 +203,46 @@ body {
 .contact-text a:hover {
   text-decoration: underline;
 }
+
+
+
+
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  margin: 1rem auto;
+  display: block;
+}
+
+.intro-text {
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.skills-list {
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+  font-size: 1.05rem;
+  margin: 1rem 0;
+}
+
+.skills-list li {
+  margin: 0.5rem 0;
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
