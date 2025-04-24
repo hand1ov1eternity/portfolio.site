@@ -66,12 +66,15 @@ body {
 }
 
 .md-avatar {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
+  width: 300px; /* larger size */
+  height: 350px;
   object-fit: cover;
   margin-bottom: 1rem;
+  transform: skew(-15deg); /* gives the parallelogram effect */
+  border-radius: 12px; /* optional: rounded corners instead of a circle */
+  box-shadow: var(--md-card-shadow);
 }
+
 
 .md-headline {
   font-size: 2.5rem;
@@ -246,3 +249,95 @@ body {
     opacity: 1;
   }
 }
+
+
+/* About Grid Layout */
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem;
+  align-items: start;
+}
+
+.about-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertically center */
+  align-items: center;     /* horizontally center */
+  text-align: center;
+  padding: 2rem;
+}
+
+.about-right {
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.info-section {
+  background: var(--md-surface);
+  padding: 1.5rem;
+  border-radius: var(--md-border-radius);
+  box-shadow: var(--md-card-shadow);
+}
+
+.info-section h2 {
+  margin-bottom: 0.75rem;
+  color: var(--md-secondary);
+}
+
+/* Parallelogram Frame */
+.photo-frame {
+  position: relative;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
+  transform: skew(-12deg);
+  overflow: hidden;
+  border-radius: var(--md-border-radius);
+  box-shadow: var(--md-card-shadow);
+}
+
+.parallelogram-photo {
+  width: 100%;
+  display: block;
+  transform: skew(12deg);
+  object-fit: cover;
+  height: 300px;
+}
+
+/* Responsive Layout */
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .photo-frame {
+    max-width: 100%;
+  }
+}
+
+.main-text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 1rem;
+  color: var(--md-on-surface); /* Optional, if using Material Design vars */
+}
+
+.main-text {
+  background-color: var(--md-surface-container-high);
+  padding: 1rem;
+  border-radius: var(--md-border-radius);
+}
+
+h2 {
+  font-size: 1.75rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--md-primary);
+}
+
