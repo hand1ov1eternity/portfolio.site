@@ -290,25 +290,27 @@ body {
   color: var(--md-secondary);
 }
 
-/* Parallelogram Frame */
+/* Frame Container */
 .photo-frame {
   position: relative;
   width: 100%;
-  max-width: 350px;
+  max-width: 450px; 
   margin: 0 auto;
-  transform: skew(-12deg);
   overflow: hidden;
   border-radius: var(--md-border-radius);
   box-shadow: var(--md-card-shadow);
 }
 
+/* Image Styling */
 .parallelogram-photo {
   width: 100%;
   display: block;
-  transform: skew(12deg);
   object-fit: cover;
-  height: 300px;
+  height: 550px; 
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
+
 
 /* Responsive Layout */
 @media (max-width: 768px) {
