@@ -25,13 +25,13 @@ CSS3,
 JavaScript (accessibility tools),
 Google Fonts,
 Responsive design with Flexbox & CSS Grid,
-Material Design 3
+Material Design 3.
 
 ---
 
 ## 💡 How It’s Built
 
-The project structure is clean and modular, separating content (`HTML`), styling (`SCSS/CSS`), and functionality (`JavaScript`). Responsive techniques are applied with media queries and modern layout tools like **Flexbox** and **Grid**. Design elements are enhanced with **Google Fonts**, and **Material Design 3**
+The project structure is clean and modular, separating content (`HTML`), styling (`SCSS/CSS`), and functionality (`JavaScript`). Responsive techniques are applied with media queries and modern layout tools like **Flexbox** and **Grid**. Design elements are enhanced with **Google Fonts**, and **Material Design 3**.
 
 ---
 
