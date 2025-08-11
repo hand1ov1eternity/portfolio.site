@@ -177,6 +177,18 @@ body {
   height: 180px;
 }
 
+/* Show full foodsharing image without cropping */
+.project-image--contain {
+  object-fit: contain;
+  background-color: #fff; /* fills the empty bands (“letterboxing”) */
+}
+
+/* foodsharing image natural height */
+.project-image--natural {
+  height: auto;
+}
+
+
 .project-video {
   width: 100%;
   border-radius: var(--md-border-radius);
