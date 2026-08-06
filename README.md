@@ -7,7 +7,7 @@
 ## 🎯 Features
 
 - 🚀 **Custom Navigation Bar**  
-  A clean, centered logo with links to Home, About, and Resume pages.
+  A clean navigation bar with links to the Projects and About pages.
 
 - 🧩 **Responsive Grid-Based Project Layout**  
   Displays projects in a flexible 3-column layout on desktop, scaling to a single column on smaller devices. Includes hover animations.
